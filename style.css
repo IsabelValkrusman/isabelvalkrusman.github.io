@@ -443,6 +443,22 @@ section {
 }
 
 
+/* CHIC & PICKMI IMAGES */
+
+.chic-photo img,
+.pickmi-photo img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    display: block;
+}
+
+.chic-photo,
+.pickmi-photo {
+    background: #111;
+}
+
+
 /* =========================
    SKILLS
 ========================= */
