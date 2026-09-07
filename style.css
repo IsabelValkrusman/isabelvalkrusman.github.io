@@ -307,8 +307,8 @@ section {
     background-position: center;
 }
 .route-photo img {
-    width: 180px;
-    height: 180px;
+    width: 270px;
+    height: 270px;
     object-fit: contain;
     display: block;
 }
