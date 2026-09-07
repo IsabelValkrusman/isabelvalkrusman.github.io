@@ -349,6 +349,18 @@ section {
     padding: 25px;
 }
 
+
+.medical-photo {
+    background: #111;
+}
+
+.medical-photo img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    display: block;
+}
+
 .project-type {
     font-size: 9px;
     letter-spacing: 3px;
