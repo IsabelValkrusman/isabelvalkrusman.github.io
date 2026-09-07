@@ -344,6 +344,30 @@ section {
     display: block;
 }
 
+/* SOCIAL LINKS */
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.social-links a {
+    border: 1px solid #383838;
+    border-radius: 25px;
+    padding: 8px 13px;
+    font-size: 11px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #eee;
+    color: #111;
+    border-color: #eee;
+}
+
 .project-info {
     position: relative;
     padding: 25px;
