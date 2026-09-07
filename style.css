@@ -306,6 +306,12 @@ section {
     background-size: cover;
     background-position: center;
 }
+.route-photo img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+}
 
 .project-photo span {
     font-size: 12px;
