@@ -5,387 +5,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Isabel Valkrusman | Developer</title>
-    <meta name="description" content="Isabel Valkrusman — Junior Android & Web Developer">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVIGATION -->
-<nav class="navbar">
-    <a href="#" class="logo">ISABEL<span>.</span></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Isabel.</div>
 
-    <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </div>
-
-    <a href="#" class="cv-button">Download CV ↓</a>
-</nav>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
 
-<!-- HERO -->
-<header class="hero">
+    <!-- Hero -->
+    <header class="hero">
 
-    <div class="hero-content">
+        <div class="hero-text">
 
-        <p class="eyebrow">HELLO, I'M</p>
+            <p class="hello">HELLO, I'M</p>
 
-        <h1>
-            ISABEL<br>
-            VALKRUSMAN
-        </h1>
+            <h1>Isabel<br>Valkrusman</h1>
 
-        <h2>Junior Android & Web Developer</h2>
+            <h2>Junior Android & Web Developer</h2>
 
-        <p class="hero-description">
-            I create useful digital products through code,
-            creativity and real-world projects.
+            <p class="intro">
+                I create useful digital products through code,
+                creativity and real-world projects.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="button">View my projects</a>
+                <a href="#contact" class="button secondary">Contact me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-photo">
+            <div class="photo-placeholder">
+                YOUR PHOTO
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- About -->
+    <section id="about">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>Building things that<br>are actually useful.</h2>
+
+        <p>
+            I'm a self-motivated developer interested in Android
+            and web development. I enjoy turning my own ideas into
+            functional digital products and learning new technologies
+            along the way.
         </p>
 
-        <div class="hero-buttons">
-            <a href="#projects" class="button primary">
-                View my projects →
-            </a>
-
-            <a href="#contact" class="button">
-                Contact me
-            </a>
-        </div>
-
-        <div class="socials">
-            <a href="#" aria-label="GitHub">GitHub</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="mailto:YOUR-EMAIL@example.com">Email</a>
-        </div>
-
-    </div>
+    </section>
 
 
-    <div class="hero-image-wrapper">
+    <!-- Projects -->
+    <section id="projects">
 
-        <img
-            src="profile.jpg"
-            alt="Isabel Valkrusman"
-            class="profile-image"
-        >
+        <p class="section-label">MY PROJECTS</p>
 
-        <div class="handwriting">
-            good code.<br>
-            brighter<br>
-            tomorrows<br>
-            ♡
-        </div>
-
-    </div>
-
-</header>
+        <h2>Things I've built.</h2>
 
 
-<!-- ABOUT -->
-<section id="about" class="about">
+        <div class="projects-grid">
 
-    <div class="section-label">ABOUT ME</div>
+            <!-- Health -->
+            <article class="project-card">
 
-    <div class="about-grid">
-
-        <h2>
-            Building things<br>
-            that actually matter.
-        </h2>
-
-        <div class="about-text">
-
-            <p>
-                I'm a self-motivated developer interested in Android
-                and web development. I enjoy turning ideas into
-                functional digital products and learning new
-                technologies along the way.
-            </p>
-
-            <p>
-                Besides coding, I'm also interested in digital
-                marketing, content creation and event organization.
-            </p>
-
-            <a href="#contact" class="text-button">
-                More about me →
-            </a>
-
-        </div>
-
-        <div class="about-side">
-            CODE<br>
-            DESIGN<br>
-            CREATE<br>
-            IMPROVE<br>
-            REPEAT
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-
-    <div class="section-label">MY PROJECTS</div>
-
-    <div class="section-heading">
-
-        <h2>
-            Real projects.<br>
-            Real experience.
-        </h2>
-
-        <a href="#projects" class="view-all">
-            View all projects →
-        </a>
-
-    </div>
-
-
-    <div class="project-grid">
-
-
-        <!-- HEALTH -->
-        <article class="project-card">
-
-            <div class="project-photo health-photo">
-                <span>HEALTH</span>
-            </div>
-
-            <div class="project-info">
-
-                <span class="project-type">ANDROID APP</span>
-
-                <h3>Health App</h3>
-
-                <p>
-                    An educational health application with
-                    information about diseases, symptoms and
-                    health-related topics.
-                </p>
-
-                <div class="tags">
-                    <span>Kotlin</span>
-                    <span>Android</span>
-                    <span>Room</span>
+                <div class="project-image health-image">
+                    HEALTH APP
                 </div>
 
-                <a href="#" class="project-arrow">↗</a>
+                <div class="project-content">
 
-            </div>
+                    <p class="project-type">ANDROID APP</p>
 
-        </article>
+                    <h3>Health App</h3>
 
+                    <p>
+                        An educational health application with
+                        information about diseases, symptoms and
+                        health-related topics.
+                    </p>
 
-        <!-- ROUTE 66 -->
-        <article class="project-card">
+                    <div class="tags">
+                        <span>Kotlin</span>
+                        <span>Android</span>
+                        <span>Room</span>
+                    </div>
 
-            <div class="project-photo route-photo">
-                <span>VIA BALTICA</span>
-            </div>
-
-            <div class="project-info">
-
-                <span class="project-type">ANDROID APP</span>
-
-                <h3>Route 66 Via Baltica</h3>
-
-                <p>
-                    A travel application helping travelers
-                    discover interesting places along the
-                    Via Baltica route.
-                </p>
-
-                <div class="tags">
-                    <span>Kotlin</span>
-                    <span>Maps</span>
-                    <span>Local DB</span>
                 </div>
 
-                <a href="#" class="project-arrow">↗</a>
-
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- RESTAURANT -->
-        <article class="project-card">
+            <!-- Route 66 -->
+            <article class="project-card">
 
-            <div class="project-photo restaurant-photo">
-                <span>HALINGA</span>
-            </div>
-
-            <div class="project-info">
-
-                <span class="project-type">WEB & DIGITAL</span>
-
-                <h3>Halinga Restaurant</h3>
-
-                <p>
-                    Restaurant website and digital marketing
-                    project including TikTok content and
-                    gaming event promotion.
-                </p>
-
-                <div class="tags">
-                    <span>Web</span>
-                    <span>TikTok</span>
-                    <span>Marketing</span>
+                <div class="project-image route-image">
+                    ROUTE 66 VIA BALTICA
                 </div>
 
-                <a href="#" class="project-arrow">↗</a>
+                <div class="project-content">
 
-            </div>
+                    <p class="project-type">ANDROID APP</p>
 
-        </article>
+                    <h3>Route 66 Via Baltica</h3>
 
-    </div>
+                    <p>
+                        A travel application helping travelers
+                        discover interesting places along the
+                        Via Baltica route.
+                    </p>
 
-</section>
+                    <div class="tags">
+                        <span>Kotlin</span>
+                        <span>Maps</span>
+                        <span>Local DB</span>
+                    </div>
+
+                </div>
+
+            </article>
 
 
-<!-- SKILLS -->
-<section id="skills" class="skills-section">
+            <!-- Restaurant -->
+            <article class="project-card">
 
-    <div class="section-label">SKILLS</div>
+                <div class="project-image restaurant-image">
+                    HALINGA RESTAURANT
+                </div>
 
-    <div class="section-heading">
+                <div class="project-content">
+
+                    <p class="project-type">WEB & DIGITAL</p>
+
+                    <h3>Halinga Restaurant</h3>
+
+                    <p>
+                        Restaurant website and digital marketing
+                        project including TikTok content and
+                        gaming event promotion.
+                    </p>
+
+                    <div class="tags">
+                        <span>Web</span>
+                        <span>TikTok</span>
+                        <span>Marketing</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <p class="section-label">SKILLS</p>
 
         <h2>What I work with.</h2>
 
-        <span class="learning">
-            Always learning more →
-        </span>
+        <div class="skills">
 
-    </div>
+            <div>
+                <h3>Android</h3>
+                <p>Kotlin · Jetpack Compose · Room · Android Studio</p>
+            </div>
 
+            <div>
+                <h3>Web</h3>
+                <p>HTML · CSS · JavaScript</p>
+            </div>
 
-    <div class="skills-grid">
+            <div>
+                <h3>Tools</h3>
+                <p>Git · GitHub · Figma</p>
+            </div>
 
-        <div class="skill-card">
-
-            <div class="skill-icon">⌘</div>
-
-            <h3>Android</h3>
-
-            <p>
-                Kotlin · Jetpack Compose<br>
-                Room · Android Studio
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <div class="skill-icon">&lt;/&gt;</div>
-
-            <h3>Web</h3>
-
-            <p>
-                HTML · CSS · JavaScript
-            </p>
+            <div>
+                <h3>Digital</h3>
+                <p>Content Creation · TikTok · Marketing · Events</p>
+            </div>
 
         </div>
 
-
-        <div class="skill-card">
-
-            <div class="skill-icon">⑂</div>
-
-            <h3>Tools</h3>
-
-            <p>
-                Git · GitHub · Figma
-            </p>
-
-        </div>
+    </section>
 
 
-        <div class="skill-card">
+    <!-- Contact -->
+    <section id="contact">
 
-            <div class="skill-icon">▥</div>
+        <p class="section-label">CONTACT</p>
 
-            <h3>Digital</h3>
+        <h2>Let's create<br>something together.</h2>
 
-            <p>
-                Content Creation · TikTok<br>
-                Marketing · Events
-            </p>
+        <p>
+            I'm currently building my portfolio and looking
+            for opportunities to grow as a developer.
+        </p>
 
-        </div>
+        <a href="mailto:YOUR-EMAIL@example.com" class="button">
+            Get in touch
+        </a>
 
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact" class="contact">
-
-    <div class="section-label">CONTACT</div>
-
-    <div class="contact-grid">
-
-        <h2>
-            Let's create<br>
-            something together.
-        </h2>
-
-        <div>
-
-            <p>
-                I'm currently building my portfolio and looking
-                for opportunities to grow as a developer.
-                Feel free to reach out!
-            </p>
-
-            <a
-                href="mailto:YOUR-EMAIL@example.com"
-                class="button primary"
-            >
-                Get in touch →
-            </a>
-
-        </div>
-
-        <div class="contact-socials">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="mailto:YOUR-EMAIL@example.com">Email</a>
-        </div>
-
-    </div>
-
-    <div class="contact-note">
-        same girl.<br>
-        bigger goals.<br>
-        ♡
-    </div>
-
-</section>
+    </section>
 
 
-<!-- FOOTER -->
-<footer>
-
-    <span>
-        © 2026 Isabel Valkrusman.
-    </span>
-
-    <span>
-        Code with purpose.
-    </span>
-
-</footer>
+    <footer>
+        <p>© 2026 Isabel Valkrusman</p>
+    </footer>
 
 
 </body>
