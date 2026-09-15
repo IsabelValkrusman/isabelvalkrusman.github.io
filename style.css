@@ -333,15 +333,22 @@ section {
 }
 
 .restaurant-photo {
-    background:
-        linear-gradient(#1118, #111b),
-        url('restaurant.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
 }
+
 .restaurant-photo img {
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    display: block;
+    width: 45%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.restaurant-photo .event-photo {
+    object-position: center;
 }
 
 /* SOCIAL LINKS */
