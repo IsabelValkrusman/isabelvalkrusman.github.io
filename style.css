@@ -342,9 +342,9 @@ section {
 
 .restaurant-photo img {
     width: 48%;
-    height: 300px;
+    height: 450px;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .restaurant-photo .event-photo {
