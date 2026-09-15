@@ -341,9 +341,9 @@ section {
 }
 
 .restaurant-photo img {
-    width: 45%;
-    height: 240px;
-    object-fit: cover;
+    width: 48%;
+    height: 300px;
+    object-fit: contain;
     border-radius: 8px;
 }
 
