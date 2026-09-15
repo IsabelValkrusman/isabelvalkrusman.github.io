@@ -280,8 +280,9 @@ section {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: start;
 }
 
 .project-card {
